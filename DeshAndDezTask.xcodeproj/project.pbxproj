@@ -13,6 +13,9 @@
 		A06E0BBC2B172C0100BBB2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06E0BBA2B172C0100BBB2CC /* Main.storyboard */; };
 		A06E0BBE2B172C0300BBB2CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06E0BBD2B172C0300BBB2CC /* Assets.xcassets */; };
 		A06E0BC12B172C0300BBB2CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06E0BBF2B172C0300BBB2CC /* LaunchScreen.storyboard */; };
+		A06E0BCB2B172D3A00BBB2CC /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E0BC92B172D3A00BBB2CC /* CategoriesViewController.swift */; };
+		A06E0BCC2B172D3A00BBB2CC /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06E0BCA2B172D3A00BBB2CC /* CategoriesViewController.xib */; };
+		A06E0BD02B17327D00BBB2CC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E0BCF2B17327D00BBB2CC /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A06E0BBD2B172C0300BBB2CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A06E0BC02B172C0300BBB2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06E0BC22B172C0300BBB2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06E0BC92B172D3A00BBB2CC /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		A06E0BCA2B172D3A00BBB2CC /* CategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesViewController.xib; sourceTree = "<group>"; };
+		A06E0BCF2B17327D00BBB2CC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		A06E0BB32B172C0100BBB2CC /* DeshAndDezTask */ = {
 			isa = PBXGroup;
 			children = (
+				A06E0BCE2B17324700BBB2CC /* Utilities */,
+				A06E0BC82B172D2800BBB2CC /* Categories */,
 				A06E0BB42B172C0100BBB2CC /* AppDelegate.swift */,
 				A06E0BB62B172C0100BBB2CC /* SceneDelegate.swift */,
 				A06E0BB82B172C0100BBB2CC /* ViewController.swift */,
@@ -65,6 +73,31 @@
 				A06E0BC22B172C0300BBB2CC /* Info.plist */,
 			);
 			path = DeshAndDezTask;
+			sourceTree = "<group>";
+		};
+		A06E0BC82B172D2800BBB2CC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A06E0BCD2B172D4F00BBB2CC /* ViewController */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A06E0BCD2B172D4F00BBB2CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A06E0BC92B172D3A00BBB2CC /* CategoriesViewController.swift */,
+				A06E0BCA2B172D3A00BBB2CC /* CategoriesViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A06E0BCE2B17324700BBB2CC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A06E0BCF2B17327D00BBB2CC /* GradientView.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +160,7 @@
 			files = (
 				A06E0BC12B172C0300BBB2CC /* LaunchScreen.storyboard in Resources */,
 				A06E0BBE2B172C0300BBB2CC /* Assets.xcassets in Resources */,
+				A06E0BCC2B172D3A00BBB2CC /* CategoriesViewController.xib in Resources */,
 				A06E0BBC2B172C0100BBB2CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +174,8 @@
 			files = (
 				A06E0BB92B172C0100BBB2CC /* ViewController.swift in Sources */,
 				A06E0BB52B172C0100BBB2CC /* AppDelegate.swift in Sources */,
+				A06E0BD02B17327D00BBB2CC /* GradientView.swift in Sources */,
+				A06E0BCB2B172D3A00BBB2CC /* CategoriesViewController.swift in Sources */,
 				A06E0BB72B172C0100BBB2CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
