@@ -52,7 +52,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgH-OI-ej5" customClass="CustomButton" customModule="DeshAndDezTask" customModuleProvider="target">
-                                <rect key="frame" x="39.5" y="138" width="79" height="27"/>
+                                <rect key="frame" x="31.5" y="138" width="95" height="27"/>
                                 <color key="backgroundColor" name="primaryColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="my2-Ub-oR8"/>
@@ -73,7 +73,7 @@
                             <constraint firstItem="D4j-gf-x3m" firstAttribute="centerX" secondItem="G3D-qv-U5P" secondAttribute="centerX" id="A6e-i9-PmX"/>
                             <constraint firstItem="BgH-OI-ej5" firstAttribute="top" secondItem="mcL-77-o3b" secondAttribute="bottom" constant="8" id="Aa0-dH-cNK"/>
                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="BgH-OI-ej5" secondAttribute="bottom" constant="16" id="HpH-1U-Kdr"/>
-                            <constraint firstItem="BgH-OI-ej5" firstAttribute="width" secondItem="G3D-qv-U5P" secondAttribute="width" multiplier="0.5" id="Lsk-lf-cGV"/>
+                            <constraint firstItem="BgH-OI-ej5" firstAttribute="width" secondItem="G3D-qv-U5P" secondAttribute="width" multiplier="0.6" id="Lsk-lf-cGV"/>
                             <constraint firstAttribute="trailing" secondItem="mcL-77-o3b" secondAttribute="trailing" id="PaS-W3-NMh"/>
                             <constraint firstItem="BgH-OI-ej5" firstAttribute="centerX" secondItem="G3D-qv-U5P" secondAttribute="centerX" id="R8s-fA-exa"/>
                             <constraint firstItem="5gt-Q2-oeX" firstAttribute="leading" secondItem="G3D-qv-U5P" secondAttribute="leading" constant="8" id="VB7-g7-U1S"/>
