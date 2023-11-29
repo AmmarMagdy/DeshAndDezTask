@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryImageCollectionCell" customModule="DeshAndDezTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="145" height="234"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="145" height="234"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="category" translatesAutoresizingMaskIntoConstraints="NO" id="tGn-tW-pNs" customClass="CustomImageView" customModule="DeshAndDezTask" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="145" height="234"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="leading" secondItem="tGn-tW-pNs" secondAttribute="leading" id="BJE-I1-E32"/>
+                <constraint firstItem="tGn-tW-pNs" firstAttribute="trailing" secondItem="gTV-IL-0wX" secondAttribute="trailing" id="Ml1-7m-R6Q"/>
+                <constraint firstAttribute="bottom" secondItem="tGn-tW-pNs" secondAttribute="bottom" id="sPH-Mf-5NP"/>
+                <constraint firstAttribute="top" secondItem="tGn-tW-pNs" secondAttribute="top" id="urk-mh-eSM"/>
+            </constraints>
+            <size key="customSize" width="145" height="234"/>
+            <point key="canvasLocation" x="206.52173913043481" y="62.276785714285708"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="tGn-tW-pNs">
+            <size key="intrinsicContentSize" width="182" height="344"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="category" width="182" height="344"/>
+    </resources>
+</document>

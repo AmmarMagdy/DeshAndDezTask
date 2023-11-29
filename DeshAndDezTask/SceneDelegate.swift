@@ -40,12 +40,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 extension SceneDelegate {
     func openCategoriesViewController(windowScene: UIWindowScene) {
-        let viewController = CategoriesViewController()
-        viewController.navigationController?.navigationBar.isHidden = true
+        let viewController = UINavigationController(rootViewController: CategoriesViewController())
+        viewController.isNavigationBarHidden = true
         let window = UIWindow(windowScene: windowScene)
         window.rootViewController = viewController
         self.window = window
-        window.overrideUserInterfaceStyle = .light
+        self.window?.overrideUserInterfaceStyle = .light
         window.makeKeyAndVisible()
     }
 }
